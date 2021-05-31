@@ -19,7 +19,7 @@ function calcul($moutons)
         $i++;
     }
     $moyValMoutons = $sumValMoutons / $i;
-    echo "Moyenne de la valeur de mes " . count($moutons) . " moutons : " . $sumValMoutons / $i . "</br>";
+    echo "Moyenne de la valeur de mes " . count($moutons) . " moutons : " . $moyValMoutons . "</br>";
 }
 
 //je compte les 3 premiers moutons
@@ -49,5 +49,4 @@ randomPush(100);
 calcul($moutons);
 
 //Amélioration: faire une class s'il y a plusieurs enclos de moutons différents.
-
 ?>
