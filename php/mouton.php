@@ -7,15 +7,6 @@ $moutons = [['Danny', 75], ['Richard', 60]];
 // J'ajoute un mouton
 array_push($moutons, ['Gérard', 120]);
 
-
-//Factorisez au mieux le code ci-dessus
-//(!) Dans votre code n'hésitez pas à laissez des remarques sur de futures améliorations possibles.
-
-//Important : Pour éviter un soucis de perte de session, copiez-collez l'exercice pour plus tard, terminez d'abord le questionnaire et envoyez les fichiers compressés à recrutement@cirkwi.com en précisant votre nom et prénom. 
-
-///!\ Il est recommandé d'utiliser https://wetransfer.com/ ou un service similaire pour transmettre les exercices. Votre candidature risque d'être ignorée si nous ne les recevons pas 
-
-
 //fonction qui permet de calculer rapidement à tout moment le nombre de moutons et leur moyenne
 function calcul($moutons)
 {
