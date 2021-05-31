@@ -1,0 +1,57 @@
+.pokemon {
+    outline: solid rgba(240, 230, 230, 0.911) 2px;
+    width: 80%;
+    min-width: 500px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+li {
+    display: block;
+    margin-bottom: 2px;
+    padding: 2px 0 2px 0;
+    width: 100%;
+    background-color: #f4f7fcf6;
+    color: #000000;
+    font-weight: lighter;
+}
+
+
+span {
+    font-size: 0.5em;
+    margin-right: 2px;
+    margin-left: 10px;
+}
+
+li::after {
+    content: url(images/pokeball.png);
+    margin-right: 8px;
+    margin-left: 10px;
+
+}
+
+.description {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 2px;
+}
+
+@media screen and (max-width: 400px) {
+    .pokemon {
+        width: 200px;
+        min-width: auto;
+
+        overflow: hidden;
+    }
+
+    .description img {
+        width: 100px;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+}
